@@ -5,6 +5,10 @@ using Microsoft.OpenApi.Models;
 using Microsoft.IdentityModel.Tokens;
 using WebTest.Repositories;
 using WebTest.Services;
+using Microsoft.AspNetCore.Hosting;
+using WebTest.Controllers;
+using WebTest;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -71,6 +75,7 @@ if (app.Environment.IsDevelopment())
 }
 
 
+
 //// Add services to the container.
 
 //builder.Services.AddControllers();
@@ -88,6 +93,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+
+
 app.UseRouting();
 
 app.UseAuthentication();
@@ -96,3 +103,22 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program
+{
+    public static void Main(string[] args)
+    {
+        CreateHostBuilder(args).Build().Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+
+                var port = Environment.GetEnvironmentVariable("WEBSITE_PORT") ?? "5171";
+                var httpsPort = Environment.GetEnvironmentVariable("WEBSITE_HTTPS_PORT") ?? "7072";
+                webBuilder.UseUrls($"http://*:{port}", $"https://*:{httpsPort}");
+            });
+}

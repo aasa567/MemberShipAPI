@@ -5,7 +5,13 @@ C:\Users\LIN\source\repos\WebTest\WebTest\out\WebTest.dll
 C:\Users\LIN\source\repos\WebTest\WebTest\out\WebTest.deps.json
 C:\Users\LIN\source\repos\WebTest\WebTest\out\WebTest.runtimeconfig.json
 C:\Users\LIN\source\repos\WebTest\WebTest\out\WebTest.pdb
+C:\Users\LIN\source\repos\WebTest\WebTest\out\Azure.Core.dll
+C:\Users\LIN\source\repos\WebTest\WebTest\out\Azure.Identity.dll
+C:\Users\LIN\source\repos\WebTest\WebTest\out\Azure.Security.KeyVault.Secrets.dll
 C:\Users\LIN\source\repos\WebTest\WebTest\out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\LIN\source\repos\WebTest\WebTest\out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\LIN\source\repos\WebTest\WebTest\out\Microsoft.Identity.Client.dll
+C:\Users\LIN\source\repos\WebTest\WebTest\out\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\LIN\source\repos\WebTest\WebTest\out\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\LIN\source\repos\WebTest\WebTest\out\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\LIN\source\repos\WebTest\WebTest\out\Microsoft.IdentityModel.Logging.dll
@@ -16,4 +22,8 @@ C:\Users\LIN\source\repos\WebTest\WebTest\out\Microsoft.OpenApi.dll
 C:\Users\LIN\source\repos\WebTest\WebTest\out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\LIN\source\repos\WebTest\WebTest\out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\LIN\source\repos\WebTest\WebTest\out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\LIN\source\repos\WebTest\WebTest\out\System.ClientModel.dll
 C:\Users\LIN\source\repos\WebTest\WebTest\out\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LIN\source\repos\WebTest\WebTest\out\System.Memory.Data.dll
+C:\Users\LIN\source\repos\WebTest\WebTest\out\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LIN\source\repos\WebTest\WebTest\out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
